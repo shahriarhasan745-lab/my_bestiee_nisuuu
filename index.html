@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Nisa • From Shahriar ❤️</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Music -->
+  <audio id="bg-music" loop>
+    <source src="assets/music/song.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="music-btn" class="fixed bottom-6 right-6 px-6 py-3 rounded-full flex items-center gap-2 z-50 text-lg shadow-2xl bg-white text-pink-600">
+    ♫ Play Our Song
+  </button>
+
+  <!-- Hero -->
+  <section id="hero" class="hero-bg min-h-screen flex items-center justify-center relative">
+    <div class="text-center z-10 px-6">
+      <h1 class="cursive text-7xl md:text-8xl text-pink-800">Nisa</h1>
+      <p class="text-3xl mt-4 text-pink-700">My Beautiful Best Friend</p>
+      <img id="hero-photo" src="Screenshot 2026-07-19 003559.png" class="mx-auto mt-12 w-80 h-80 object-cover rounded-3xl shadow-2xl" alt="Nisa">
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="py-20 px-6 bg-white">
+    <h2 class="text-5xl cursive text-center mb-12 text-pink-700">Our Sweet Memories</h2>
+    <div id="gallery" class="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- JS দিয়ে সব ছবি আসবে -->
+    </div>
+  </section>
+
+  <!-- Letter -->
+  <section class="py-24 px-6 bg-gradient-to-br from-pink-100 to-purple-100">
+    <div class="letter-card max-w-2xl mx-auto p-12 rounded-3xl">
+      <h2 class="text-5xl cursive text-center mb-10 text-pink-800">Letter to My Best Friend</h2>
+      <div id="letter-text" class="text-xl leading-relaxed text-pink-950 cursive text-center"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
