@@ -1,18 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For My Best Friend, Nisa ❤️</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts for Handwriting Effect -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Nisa • From Shahriar ❤️</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-pink-50">
 
-    <h1 class="main-title">For My Best Friend, Nisa ❤️</h1>
-    <div id="diary-container"></div>
+  <!-- Music -->
+  <audio id="bg-music" loop>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
 
-    <script src="script.js"></script>
+  <button id="music-btn" class="fixed bottom-6 right-6 z-50 bg-white px-6 py-3 rounded-3xl shadow-2xl text-pink-600 flex items-center gap-2 text-lg">
+    ♫ Play Our Song
+  </button>
+
+  <div class="max-w-6xl mx-auto px-6 py-16 space-y-32">
+
+    <!-- 1. Hero -->
+    <section class="text-center">
+      <div class="frame mx-auto max-w-lg">
+        <img src="Screenshot 2026-07-19 003559.png" class="w-full rounded-2xl" alt="Nisa">
+      </div>
+      <h1 class="cursive text-8xl text-pink-800 mt-10">For My Forever Best Friend, Nisa ❤️</h1>
+      <p class="mt-8 text-lg max-w-2xl mx-auto text-pink-700 leading-relaxed">
+        Nisa, from the day you entered my life, everything changed for the better. You are my safe place, my loudest cheerleader, my partner in crime, and the person who knows me inside out. This website is my way of saying thank you for being the most amazing best friend anyone could ever ask for. I love you more than words can express.
+      </p>
+    </section>
+
+    <!-- 2. Our Beautiful Memories -->
+    <section>
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">Our Beautiful Memories</h2>
+      <div id="gallery" class="grid md:grid-cols-3 gap-8"></div>
+      <p class="mt-12 text-lg text-pink-700 leading-relaxed">
+        Every memory we have made together is a treasure. Whether we were laughing until we cried or sitting in peaceful silence, every moment felt perfect because you were there.
+      </p>
+    </section>
+
+    <!-- 3. Why You Mean The World -->
+    <section class="bg-white p-12 rounded-3xl">
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">Why You Mean The World To Me, Nisa</h2>
+      <p class="text-lg text-pink-700 leading-relaxed">
+        You are the reason I believe in friendship. Your kindness, your honesty, your ability to make me feel seen and loved — these things make you irreplaceable. I am so grateful God gave me you.
+      </p>
+    </section>
+
+    <!-- 4. Our Crazy Adventures -->
+    <section>
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">Our Crazy Adventures</h2>
+      <p class="text-lg text-pink-700 leading-relaxed">
+        From spontaneous plans to late-night talks, our adventures are the best part of my life. I can't wait for many more.
+      </p>
+    </section>
+
+    <!-- 5. My Favorite Moments -->
+    <section>
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">My Favorite Moments With You</h2>
+      <p class="text-lg text-pink-700 leading-relaxed">
+        The small moments we share mean the most to me. Your smile, your laugh, your presence — everything is special.
+      </p>
+    </section>
+
+    <!-- 6. Little Things I Love -->
+    <section>
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">Little Things I Love About You</h2>
+      <p class="text-lg text-pink-700 leading-relaxed">
+        I love your laugh, your kindness, the way you care for others, and how you always make me feel better.
+      </p>
+    </section>
+
+    <!-- 7. Our Secret Inside Jokes -->
+    <section>
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">Our Secret Inside Jokes</h2>
+      <p class="text-lg text-pink-700 leading-relaxed">
+        Only we understand them, and they never fail to make me smile.
+      </p>
+    </section>
+
+    <!-- 8. Letters From My Heart -->
+    <section>
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">Letters From My Heart To You</h2>
+      <p class="text-lg text-pink-700 leading-relaxed">
+        Dear Nisa, thank you for being my best friend. I promise to always be there for you, just like you are for me.
+      </p>
+    </section>
+
+    <!-- 9. Our Dreams For The Future -->
+    <section>
+      <h2 class="cursive text-6xl text-center text-pink-800 mb-12">Our Dreams For The Future</h2>
+      <p class="text-lg text-pink-700 leading-relaxed">
+        I can't wait to see all the amazing things we will achieve together.
+      </p>
+    </section>
+
+    <!-- 10. Forever & Always -->
+    <section class="text-center">
+      <h2 class="cursive text-6xl text-pink-800">Forever & Always, Nisa</h2>
+      <p class="mt-8 text-lg max-w-2xl mx-auto text-pink-700">
+        No matter what happens in life, my love and friendship for you will never fade. You are my person, today, tomorrow, and forever.
+      </p>
+      <div class="frame mx-auto max-w-md mt-12">
+        <img src="Screenshot 2026-07-19 003730.png" class="w-full rounded-2xl" alt="Nisa">
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
