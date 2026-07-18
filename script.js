@@ -8,11 +8,15 @@ const data = [
     { img: "assets/Screenshot 2026-07-19 002727.png", text: "Wearing black with such confidence creates a striking contrast against the soft evening background. The elegance of your outfit, paired with your graceful posture, gives the image a bold yet sophisticated aesthetic." },
     { img: "assets/Screenshot 2026-07-19 002735.png", text: "There is something incredibly peaceful about the way you're looking down in this picture. The vibrant red saree adds warmth while your gentle expression keeps the mood soft and serene." },
     { img: "assets/Screenshot 2026-07-19 002747.png", text: "This photo perfectly balances elegance and happiness. The glowing lights behind you create a beautiful atmosphere, but your genuine smile remains the true highlight of the frame." },
-    { img: "assets/Screenshot 2026-07-19 003559.png", text: "Looking through all these pictures together, one thing becomes clear: every photo carries its own unique mood, yet each one is connected by the same sense of grace and authenticity." }
+    { img: "assets/Screenshot 2026-07-19 003559.png", text: "Looking through all these pictures together, one thing becomes clear: every photo carries its own unique mood, yet each one is connected by the same sense of grace and authenticity." },
+    { img: "assets/Screenshot 2026-07-19 003607.png", text: "There is a quiet sophistication in the way you pose, making the entire moment feel genuine rather than forced. You are the embodiment of grace." },
+    { img: "assets/Screenshot 2026-07-19 003617.png", text: "You truly belong to the category of people who make every picture special simply by being themselves. Your presence brings warmth to every frame." },
+    { img: "assets/Screenshot 2026-07-19 003627.png", text: "Some people take good pictures because of the camera, but you make every picture special just by existing. You are my forever inspiration." }
 ];
 
 const container = document.getElementById('diary-container');
 
+// কন্টেন্ট রেন্ডার করা
 data.forEach((item) => {
     container.innerHTML += `
         <section class="diary-page">
