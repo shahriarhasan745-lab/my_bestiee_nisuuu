@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Inter', sans-serif; color: #831843; }
+.cursive { font-family: 'Great Vibes', cursive; }
+
+.hero-bg {
+  background: linear-gradient(135deg, #fce7f3, #f9a8d4, #c084fc, #e0bbff);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#hero-photo {
+  border: 12px solid rgba(255,255,255,0.9);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
+}
+
+#gallery img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 6px solid #fff;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  transition: all 0.4s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+}
+
+.letter-card {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 20px 40px -10px rgb(0 0 0 / 0.2);
+}
+
+#music-btn:hover { transform: scale(1.1); }
